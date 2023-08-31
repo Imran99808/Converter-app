@@ -1,0 +1,13 @@
+function  removeMatch(parent,value){
+    removeAllChild(parent.parent2);
+    const arr=Object.keys(converter[value].units);
+    for(let i=0;i<arr.length;i++){
+        if(parent.key==arr[i]){
+          console.log('emon')
+            continue;
+        }
+        
+         selectOption(parent.parent2,{value:arr[i],text:converter[value].units[arr[i]]});
+    }
+   
+}

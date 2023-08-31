@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/app.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1 class="header-title">Multiple Converter</h1>
+        <div class="divider"></div>
+        <div class="wrapper">
+            <label for="category-select" class="lead">Select Category</label>
+            <select class="text-input" id="category-select">
+                
+            </select>
+        </div>
+        <div class="inp-grp">
+            <div class="left-input" >
+                <input type="text" class="text-input large-text-inp" id="left-inp">
+                <select class="text-input" id="left-select">
+                    <option value="kilometer">Kilometer</option>
+                    <option value="meter">Meter</option>
+                    <option value="centimeter">Centi Meter</option>
+                    <option value="millimeter">Millimeter</option>
+                    
+                </select>
+            </div>
+            <div class="mid-input">
+                =
+
+            </div>
+            <div class="right-input">
+                <input type="text" class="text-input large-text-inp" id="right-inp">
+                <select class="text-input" id="right-select">
+                    <option value="kilometer">Kilometer</option>
+                    <option value="meter">Meter</option>
+                    <option value="centimeter">Centi Meter</option>
+                    <option value="millimeter">Millimeter</option>
+                   
+                </select>
+            </div>
+        </div>
+        <div class="formula">
+            <h3 >Formula</h3>
+            <p class="lead" id="formula"></p>
+        </div>
+    </div>
+</body>
+</html>
